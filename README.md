@@ -5,7 +5,7 @@ The repository contains folder "audios" that includes the .wav files the program
 
 The .png files in the repository are used as background for the clock window.
 
-Within the terminal, move to the root directory, where the requirements file is located. With the command ``pip install -r requirements.txt`` you can install all necessary packages to run the code. Next, run the file code.py from the root directory with the command ``python code.py``.
+Within the terminal, move to the root directory, where the requirements file is located. With the command ``pip install -r requirements.txt`` you can install all necessary packages to run the code. In case you get a tkinter ImportError, please refer to: https://tkdocs.com/tutorial/install.html. Next, run the file code.py from the root directory with the command ``python code.py``.
 
 Two windows open when the command is executed. The main window contains the welcome text and the control buttons. The other is where you can have a clock showing the current time in your timezone. 
 
